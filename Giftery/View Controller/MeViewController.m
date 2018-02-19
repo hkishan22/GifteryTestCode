@@ -1,18 +1,20 @@
 //
-//  SecondViewController.m
+//  MeViewController.m
 //  Giftery
 //
-//  Created by admin on 17/02/18.
+//  Created by admin on 19/02/18.
 //  Copyright © 2018 Hari Kishan Upadhyay. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import <Foundation/Foundation.h>
 
-@interface SecondViewController ()
+#import "MeViewController.h"
+
+@interface MeViewController ()
 
 @end
 
-@implementation SecondViewController
+@implementation MeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

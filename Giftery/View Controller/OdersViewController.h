@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  OdersViewController.h
 //  Giftery
 //
 //  Created by admin on 17/02/18.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface OdersViewController : UIViewController
 
 
 @end

@@ -8,27 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		84C46FBC2038790600DDE564 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C46FBB2038790600DDE564 /* AppDelegate.m */; };
-		84C46FBF2038790600DDE564 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C46FBE2038790600DDE564 /* FirstViewController.m */; };
-		84C46FC22038790600DDE564 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C46FC12038790600DDE564 /* SecondViewController.m */; };
+		84C46FBF2038790600DDE564 /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C46FBE2038790600DDE564 /* EventViewController.m */; };
+		84C46FC22038790600DDE564 /* OdersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C46FC12038790600DDE564 /* OdersViewController.m */; };
 		84C46FC52038790600DDE564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C46FC32038790600DDE564 /* Main.storyboard */; };
 		84C46FC72038790600DDE564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C46FC62038790600DDE564 /* Assets.xcassets */; };
 		84C46FCA2038790600DDE564 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C46FC82038790600DDE564 /* LaunchScreen.storyboard */; };
 		84C46FCD2038790600DDE564 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C46FCC2038790600DDE564 /* main.m */; };
+		84C46FD4203A99A300DDE564 /* GiftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C46FD3203A99A200DDE564 /* GiftViewController.m */; };
+		84C46FD6203A99B400DDE564 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C46FD5203A99B400DDE564 /* MeViewController.m */; };
+		84C46FDC203A9B5700DDE564 /* jsonresponse.txt in Resources */ = {isa = PBXBuildFile; fileRef = 84C46FDB203A9B5700DDE564 /* jsonresponse.txt */; };
+		84C46FDF203A9BF300DDE564 /* Events.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C46FDE203A9BF300DDE564 /* Events.m */; };
+		84EB7E24203AA5ED00C14954 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EB7E23203AA5ED00C14954 /* Utils.m */; };
+		84EB7E27203AA69700C14954 /* GifteryAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EB7E26203AA69700C14954 /* GifteryAPI.m */; };
+		84EB7E2C203AB66C00C14954 /* EventsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EB7E2B203AB66C00C14954 /* EventsViewModel.m */; };
+		84EB7E49203AFDBB00C14954 /* EventCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EB7E48203AFDBB00C14954 /* EventCellTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84C46FB72038790600DDE564 /* Giftery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Giftery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C46FBA2038790600DDE564 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84C46FBB2038790600DDE564 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84C46FBD2038790600DDE564 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		84C46FBE2038790600DDE564 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		84C46FC02038790600DDE564 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		84C46FC12038790600DDE564 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		84C46FBD2038790600DDE564 /* EventViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventViewController.h; sourceTree = "<group>"; };
+		84C46FBE2038790600DDE564 /* EventViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
+		84C46FC02038790600DDE564 /* OdersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OdersViewController.h; sourceTree = "<group>"; };
+		84C46FC12038790600DDE564 /* OdersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OdersViewController.m; sourceTree = "<group>"; };
 		84C46FC42038790600DDE564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84C46FC62038790600DDE564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84C46FC92038790600DDE564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84C46FCB2038790600DDE564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84C46FCC2038790600DDE564 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84C46FD3203A99A200DDE564 /* GiftViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GiftViewController.m; sourceTree = "<group>"; };
+		84C46FD5203A99B400DDE564 /* MeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		84C46FD7203A99C400DDE564 /* MeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		84C46FD8203A99D000DDE564 /* GiftViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GiftViewController.h; sourceTree = "<group>"; };
+		84C46FDB203A9B5700DDE564 /* jsonresponse.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = jsonresponse.txt; sourceTree = "<group>"; };
+		84C46FDD203A9BE700DDE564 /* Events.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Events.h; sourceTree = "<group>"; };
+		84C46FDE203A9BF300DDE564 /* Events.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Events.m; sourceTree = "<group>"; };
+		84EB7E22203AA5ED00C14954 /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		84EB7E23203AA5ED00C14954 /* Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		84EB7E25203AA69700C14954 /* GifteryAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GifteryAPI.h; sourceTree = "<group>"; };
+		84EB7E26203AA69700C14954 /* GifteryAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GifteryAPI.m; sourceTree = "<group>"; };
+		84EB7E2A203AB66C00C14954 /* EventsViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventsViewModel.h; sourceTree = "<group>"; };
+		84EB7E2B203AB66C00C14954 /* EventsViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventsViewModel.m; sourceTree = "<group>"; };
+		84EB7E47203AFDBB00C14954 /* EventCellTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventCellTableViewCell.h; sourceTree = "<group>"; };
+		84EB7E48203AFDBB00C14954 /* EventCellTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventCellTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,17 +86,72 @@
 			children = (
 				84C46FBA2038790600DDE564 /* AppDelegate.h */,
 				84C46FBB2038790600DDE564 /* AppDelegate.m */,
-				84C46FBD2038790600DDE564 /* FirstViewController.h */,
-				84C46FBE2038790600DDE564 /* FirstViewController.m */,
-				84C46FC02038790600DDE564 /* SecondViewController.h */,
-				84C46FC12038790600DDE564 /* SecondViewController.m */,
+				84C46FDA203A9B2100DDE564 /* Modals */,
+				84C46FD9203A9B0900DDE564 /* View Controller */,
+				84EB7E29203AB65700C14954 /* View Model */,
+				84EB7E28203AAEF200C14954 /* Utils */,
+				84EB7E4A203AFDC400C14954 /* Event Cell */,
 				84C46FC32038790600DDE564 /* Main.storyboard */,
 				84C46FC62038790600DDE564 /* Assets.xcassets */,
 				84C46FC82038790600DDE564 /* LaunchScreen.storyboard */,
+				84C46FDB203A9B5700DDE564 /* jsonresponse.txt */,
 				84C46FCB2038790600DDE564 /* Info.plist */,
 				84C46FCC2038790600DDE564 /* main.m */,
 			);
 			path = Giftery;
+			sourceTree = "<group>";
+		};
+		84C46FD9203A9B0900DDE564 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84C46FBD2038790600DDE564 /* EventViewController.h */,
+				84C46FBE2038790600DDE564 /* EventViewController.m */,
+				84C46FC02038790600DDE564 /* OdersViewController.h */,
+				84C46FC12038790600DDE564 /* OdersViewController.m */,
+				84C46FD8203A99D000DDE564 /* GiftViewController.h */,
+				84C46FD3203A99A200DDE564 /* GiftViewController.m */,
+				84C46FD7203A99C400DDE564 /* MeViewController.h */,
+				84C46FD5203A99B400DDE564 /* MeViewController.m */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		84C46FDA203A9B2100DDE564 /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				84C46FDD203A9BE700DDE564 /* Events.h */,
+				84C46FDE203A9BF300DDE564 /* Events.m */,
+				84EB7E25203AA69700C14954 /* GifteryAPI.h */,
+				84EB7E26203AA69700C14954 /* GifteryAPI.m */,
+			);
+			path = Modals;
+			sourceTree = "<group>";
+		};
+		84EB7E28203AAEF200C14954 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				84EB7E22203AA5ED00C14954 /* Utils.h */,
+				84EB7E23203AA5ED00C14954 /* Utils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		84EB7E29203AB65700C14954 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				84EB7E2A203AB66C00C14954 /* EventsViewModel.h */,
+				84EB7E2B203AB66C00C14954 /* EventsViewModel.m */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		84EB7E4A203AFDC400C14954 /* Event Cell */ = {
+			isa = PBXGroup;
+			children = (
+				84EB7E47203AFDBB00C14954 /* EventCellTableViewCell.h */,
+				84EB7E48203AFDBB00C14954 /* EventCellTableViewCell.m */,
+			);
+			path = "Event Cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +215,7 @@
 				84C46FCA2038790600DDE564 /* LaunchScreen.storyboard in Resources */,
 				84C46FC72038790600DDE564 /* Assets.xcassets in Resources */,
 				84C46FC52038790600DDE564 /* Main.storyboard in Resources */,
+				84C46FDC203A9B5700DDE564 /* jsonresponse.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,10 +226,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84C46FC22038790600DDE564 /* SecondViewController.m in Sources */,
+				84C46FD6203A99B400DDE564 /* MeViewController.m in Sources */,
+				84EB7E2C203AB66C00C14954 /* EventsViewModel.m in Sources */,
+				84EB7E27203AA69700C14954 /* GifteryAPI.m in Sources */,
+				84C46FDF203A9BF300DDE564 /* Events.m in Sources */,
+				84EB7E49203AFDBB00C14954 /* EventCellTableViewCell.m in Sources */,
+				84C46FD4203A99A300DDE564 /* GiftViewController.m in Sources */,
+				84EB7E24203AA5ED00C14954 /* Utils.m in Sources */,
+				84C46FC22038790600DDE564 /* OdersViewController.m in Sources */,
 				84C46FBC2038790600DDE564 /* AppDelegate.m in Sources */,
 				84C46FCD2038790600DDE564 /* main.m in Sources */,
-				84C46FBF2038790600DDE564 /* FirstViewController.m in Sources */,
+				84C46FBF2038790600DDE564 /* EventViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

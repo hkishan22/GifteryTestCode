@@ -1,18 +1,20 @@
 //
-//  FirstViewController.m
+//  GiftViewController.m
 //  Giftery
 //
-//  Created by admin on 17/02/18.
+//  Created by admin on 19/02/18.
 //  Copyright © 2018 Hari Kishan Upadhyay. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import <Foundation/Foundation.h>
 
-@interface FirstViewController ()
+#import "GiftViewController.h"
+
+@interface GiftViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation GiftViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
